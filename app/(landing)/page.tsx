@@ -1,9 +1,11 @@
-import Image from "next/image";
+import HeroSection from "./components/home/hero";
+import CategoriesSection from "./components/home/categories";
 
 export default function Home() {
   return (
-    <main className="bg-primary">
-      <h1 className="font-extrabold">Halo apakah ini poppins</h1>
+    <main>
+      <HeroSection />
+      <CategoriesSection />
     </main>
   );
 }
